@@ -1,0 +1,17 @@
+package makeclass;
+
+public class Lotto {
+	
+	int[] nums;
+
+	public Lotto(int[] nums) {
+		this.nums = nums;
+	}
+
+	void getNums(){
+		for(int n:nums) {
+			System.out.println(n);
+		}
+	}
+	
+}
