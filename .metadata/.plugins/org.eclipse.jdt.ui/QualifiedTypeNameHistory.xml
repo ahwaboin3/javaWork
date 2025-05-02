@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="c06.Student"/>
+    <fullyQualifiedTypeName name="c06.Waffle"/>
+    <fullyQualifiedTypeName name="c06.FieldUse"/>
+    <fullyQualifiedTypeName name="c06.ConstructorDetails"/>
+    <fullyQualifiedTypeName name="c06.method.MeDetails"/>
+    <fullyQualifiedTypeName name="c06.method.MeParam"/>
+    <fullyQualifiedTypeName name="c06.method.Varargs"/>
+    <fullyQualifiedTypeName name="c06.method.MeRe"/>
+</qualifiedTypeNameHistroy>

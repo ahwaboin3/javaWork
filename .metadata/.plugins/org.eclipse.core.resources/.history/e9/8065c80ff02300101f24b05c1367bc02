@@ -1,0 +1,9 @@
+package c05;
+
+public class EnhancedFor {
+	public static void main(String[] args) {
+		//향상된 for문(foreach문)
+		
+	}
+
+}

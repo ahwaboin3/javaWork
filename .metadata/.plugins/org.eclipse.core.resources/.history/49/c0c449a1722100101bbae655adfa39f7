@@ -1,0 +1,19 @@
+package c04;
+
+public class DiceApp {
+	public static void main(String[] args) {
+		//주사위 번호 뽑기
+		
+		//랜덤으로 정수를 얻는 원리부터 이해해 봅시다
+		//Math.random()메소드를 활용할 수 있습니다.
+		double d=Math.random();
+		System.out.println(d);
+	}
+
+}
+
+
+
+
+
+

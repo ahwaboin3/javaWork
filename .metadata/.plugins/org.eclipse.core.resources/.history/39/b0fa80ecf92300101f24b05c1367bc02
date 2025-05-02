@@ -1,0 +1,14 @@
+package c06;
+
+public class Student2 {
+	//필드
+	String name;
+	String phoneNumber;
+	
+	//생성자
+	Student2(String name,String phoneNumber){
+		this.name=name;
+		this.phoneNumber=phoneNumber;
+	}
+
+}

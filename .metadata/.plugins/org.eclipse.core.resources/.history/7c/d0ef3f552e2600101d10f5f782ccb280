@@ -1,0 +1,6 @@
+package c06.ol;
+
+//생성자 오버로딩
+public class Car {
+
+}

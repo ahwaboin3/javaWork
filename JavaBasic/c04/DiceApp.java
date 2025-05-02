@@ -1,0 +1,56 @@
+package c04;
+
+public class DiceApp {
+	public static void main(String[] args) {
+		//주사위 번호 뽑기
+		
+		//랜덤으로 정수를 얻는 원리부터 이해해 봅시다
+		//Math.random()메소드를 활용할 수 있습니다.
+		double d=Math.random();
+		System.out.println(d);
+		//random메소드는 0.0과 1.0사이에 속하는
+		//double타입의 난수 하나를 리턴합니다.
+		//그렇다면 1~10사이의 정수 중에서 하나의 정수를
+		//얻기 위해 각 변에 10을 곱하면 됩니다.
+		double d1=Math.random()*10;
+		System.out.println(d1);
+		//이 상태에서 int타입으로 강제 타입 변환하면
+		//하나의 정수값을 얻을 수 있습니다.
+		int d2=(int)(Math.random()*10);
+		System.out.println(d2);
+		//0~9사이의 정수 하나가 랜덤하게 출력됩니다.
+		//1~10사이의 정수 중에서 하나의 정수를 얻기
+		int d3=(int)(Math.random()*10)+1;
+		System.out.println(d3);
+		//start부터 시작하는 n개의 정수 중에서 임의의
+		//정수 하나를 얻기 위한 연산식
+		//int num=(int)(Math.random()*n)+start;
+		//주사위 번호 뽑기
+		int num=(int)(Math.random()*6)+1;
+		System.out.println(num);
+		//로또 번호 뽑기
+		int lottoNum=(int)(Math.random()*45)+1;
+		
+		int diceNum=(int)(Math.random()*6)+1;
+		if(diceNum==1) {
+			System.out.println("1번이 나왔습니다.");
+		}else if(diceNum==2) {
+			System.out.println("2번이 나왔습니다.");
+		}else if(diceNum==3) {
+			System.out.println("3번이 나왔습니다.");
+		}else if(diceNum==4) {
+			System.out.println("4번이 나왔습니다.");
+		}else if(diceNum==5) {
+			System.out.println("5번이 나왔습니다.");
+		}else {
+			System.out.println("6번이 나왔습니다.");
+		}
+	}
+
+}
+
+
+
+
+
+

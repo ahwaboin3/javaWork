@@ -1,0 +1,10 @@
+package c06;
+
+public class CarExample {
+	
+	public static void main(String[] args) {
+		//객체 생성
+		Car myCar=new Car();
+	}
+
+}

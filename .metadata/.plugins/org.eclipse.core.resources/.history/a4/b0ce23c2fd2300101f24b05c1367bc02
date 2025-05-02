@@ -1,0 +1,24 @@
+package c06;
+
+public class Waffle {
+	String paste;
+	String syrup;
+	int price;
+	
+	Waffle(String paste,String syrup,int price){
+		this.paste=paste;
+		this.syrup=syrup;
+		this.price=price;
+	}
+	
+	void printWaffle(){
+		
+	}
+	
+	
+	
+}
+
+
+
+

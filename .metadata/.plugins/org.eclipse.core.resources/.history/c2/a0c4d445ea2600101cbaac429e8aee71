@@ -1,0 +1,7 @@
+package c06.method;
+
+//메소드 호출(call)
+//메소드는 클래스 내,외부의 호출에 의해 실행됩니다.
+public class MeCall {
+
+}

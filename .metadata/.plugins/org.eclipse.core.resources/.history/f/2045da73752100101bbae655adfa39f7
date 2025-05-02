@@ -1,0 +1,8 @@
+package c04;
+
+public class TodayFortune {
+	public static void main(String[] args) {
+		//오늘의 운세
+	}
+
+}

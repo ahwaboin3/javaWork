@@ -1,0 +1,8 @@
+package c04;
+
+public class DiceApp {
+	public static void main(String[] args) {
+		
+	}
+
+}

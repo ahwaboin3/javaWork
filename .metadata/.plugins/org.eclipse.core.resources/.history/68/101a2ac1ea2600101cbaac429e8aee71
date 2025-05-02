@@ -1,0 +1,19 @@
+package c06.method;
+
+//메소드 호출(call)
+//메소드는 클래스 내,외부의 호출에 의해 실행됩니다.
+//객체 내부에서 호출
+//메소드(매개값,...);
+public class MeCall {
+	int method1(int x,int y) {
+		int result=x+y;
+		return result;
+	}
+	
+}
+
+
+
+
+
+

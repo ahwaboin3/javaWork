@@ -1,0 +1,16 @@
+package c06.method;
+
+//성적의 총합과 평균을 구하는 클래스
+public class Grade {
+	//필드
+	int kor;
+	int eng;
+	int math;
+	//생성자
+	public Grade(int kor, int eng, int math) {
+		this.kor = kor;
+		this.eng = eng;
+		this.math = math;
+	}
+	//메소드
+}

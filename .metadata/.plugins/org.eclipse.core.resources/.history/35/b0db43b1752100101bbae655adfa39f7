@@ -1,0 +1,13 @@
+package c04;
+
+import java.util.Scanner;
+
+public class TodayFortune {
+	public static void main(String[] args) {
+		//오늘의 운세
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("오늘의 운세");
+		System.out.println("띠를 입력하세요:");
+	}
+
+}

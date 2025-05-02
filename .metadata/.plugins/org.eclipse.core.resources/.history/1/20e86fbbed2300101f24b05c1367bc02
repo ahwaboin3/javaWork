@@ -1,0 +1,13 @@
+package c05;
+
+public class WhereLunch {
+	public static void main(String[] args) {
+		String[] shop= {"식당1","식당2","식당3","식당4"};
+		for(int i=0;i<30;i++) {
+			int indexNum=
+					(int)(Math.random()*shop.length)+1;
+			System.out.println(indexNum);
+		}
+	}
+
+}

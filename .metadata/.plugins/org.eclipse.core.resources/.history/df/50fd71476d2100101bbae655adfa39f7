@@ -1,0 +1,16 @@
+package c04;
+
+public class IfElseSen {
+	public static void main(String[] args) {
+		//if-else문
+		//if-else문의 형식과 실행 흐름
+		/*
+		 * if(조건식){
+		 * 	실행문A =>조건식이 true 실행
+		 * }else{
+		 * 	실행문B =>조건식이 false 실행
+		 * }
+		 */
+	}
+
+}

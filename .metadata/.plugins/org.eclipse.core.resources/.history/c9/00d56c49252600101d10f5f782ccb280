@@ -1,0 +1,8 @@
+package c06;
+
+//생성자
+//생성자(Constructor)는 new 연산자로 클래스로부터 객체를
+//생성할 때 호출되어 객체의 초기화를 담당합니다.
+public class ConstructorDetails {
+
+}

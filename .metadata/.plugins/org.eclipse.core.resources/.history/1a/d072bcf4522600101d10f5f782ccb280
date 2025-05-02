@@ -1,0 +1,5 @@
+package c06.method;
+
+public class Varargs {
+	//매개 변수의 개수를 모를 경우
+}

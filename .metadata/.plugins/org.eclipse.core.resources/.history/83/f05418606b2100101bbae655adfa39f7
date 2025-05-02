@@ -1,0 +1,40 @@
+package c04;
+
+public class Conditional {
+	public static void main(String[] args) {
+		//04-1 조건문:if문, switch문
+		//조건문은 조건식에 따라 다른 실행문을 실행하기 위해
+		//사용됩니다. if문은 조건식의 결과가 true,false이냐에
+		//따라, switch문은 변수의 값에 따라 실행문이 결정됩니다.
+		
+		//if문
+		//if문 형식과 실행 흐름
+		//if(조건식){
+		//	실행문A => 조건식이 true
+		//}
+		//조건식이 false이면 중괄호 안에 코드는 실행되지 않습니다.
+		//실행문B
+		//if문은 조건식의 결과에 따라 블록 실행 여부가
+		//결정됩니다. 조건식에는 true 또는 false 값을
+		//산출할 수 있는 연산식이나, boolean 타입 변수가 
+		//올 수 있습니다. 조건식이 true이면 블록을 실행하고
+		//false이면 블록을 실행하지 않습니다.
+		int score=93;
+		if(score>=90){
+			System.out.println("점수가 90보다 큽니다.");
+			System.out.println("등급은 A입니다.");
+		}
+		//만약 조건식이 true가 될 때 실행해야 할 문장이
+		//하나밖에 없다면 중괄호{}블록은 생략할 수 있습니다.
+		if(score>=90) System.out.println("A입니다.");
+		System.out.println("프로그램 종료");
+		
+	}
+}
+
+
+
+
+
+
+

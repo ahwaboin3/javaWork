@@ -1,0 +1,11 @@
+package c06.thiscall;
+
+public class Car {
+	String company;
+	String model;
+	String color;
+	public Car(String company) {
+		this.company = company;
+	}
+	
+}

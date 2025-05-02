@@ -1,0 +1,52 @@
+package c04;
+
+public class IfElseSen {
+	public static void main(String[] args) {
+		//if-else문
+		//if-else문의 형식과 실행 흐름
+		/*
+		 * if(조건식){
+		 * 	실행문A =>조건식이 true 실행
+		 * }else{
+		 * 	실행문B =>조건식이 false 실행
+		 * }
+		 * 실행문C
+		 */
+		int score=85;
+		if(score>=90) {
+			System.out.println("등급은 A입니다.");
+		}else {
+			System.out.println("등급은 B입니다.");
+		}
+		
+		//elseif문
+		//조건문이 여러 개인 if문
+		//elseif문의 형식과 실행 흐름
+		/* if(조건식1){
+		 * 	실행문A
+		 * }else if(조건식2){
+		 * 	실행문B
+		 * }else{
+		 * 	실행문C
+		 * }
+		 */
+		int point=75;
+		if(score>=90) {
+			System.out.println("등급이 A입니다.");
+		}else if(score>=80) {
+			System.out.println("등급이 B입니다.");
+		}
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

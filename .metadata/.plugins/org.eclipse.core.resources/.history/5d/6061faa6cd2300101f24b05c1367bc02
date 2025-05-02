@@ -1,0 +1,15 @@
+package c04;
+
+public class KioskApp {
+	public static void main(String[] args) {
+		while(true) {
+			System.out.println("개미집입니다.");
+			System.out.println("메뉴를 고르세요.");
+			System.out.println("1.낙지볶음");
+			System.out.println("2.낙새볶음");
+			System.out.println("3.낙곱볶음");
+			
+		}
+	}
+
+}
