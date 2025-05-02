@@ -1,0 +1,8 @@
+package makeclass;
+
+public class Rest {
+	String name;
+	String type;
+	String food;
+	String price;
+}

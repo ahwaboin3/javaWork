@@ -1,0 +1,21 @@
+package makeclass;
+
+public class Rest {
+	String name;
+	String type;
+	String food;
+	int price;
+	
+	public Rest(String name, String type, String food, int price) {
+		this.name = name;
+		this.type = type;
+		this.food = food;
+		this.price = price;
+	}
+
+	public String toString() {
+		return "Rest [name=" + name + ", type=" + type + ", food=" + food + ", price=" + price + "]";
+	}
+	
+	
+}
