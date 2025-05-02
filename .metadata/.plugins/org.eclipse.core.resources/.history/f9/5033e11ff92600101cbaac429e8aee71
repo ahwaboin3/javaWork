@@ -15,9 +15,14 @@ public class Show {
 	}
 	
 	String getFields() {
-		return "Show [genre=" + genre + 
-			", openDate=" + openDate + ", ott=" + ott 
-			+ ", episodes=" + episodes + "]";
+		return "Show [genre=" + genre + ", openDate=" + openDate + ", ott=" + ott + ", episodes=" + episodes + "]";
+	}
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Show [genre=" + genre + ", openDate=" + openDate + ", ott=" + ott + ", episodes=" + episodes + "]";
 	}
 
 	public static void main(String[] args) {

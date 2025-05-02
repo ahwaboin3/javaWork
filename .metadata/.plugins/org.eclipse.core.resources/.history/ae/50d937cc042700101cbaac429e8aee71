@@ -1,0 +1,16 @@
+package makeclass;
+
+public class Account {
+	String owner;
+	int balance;
+	
+	public Account(String owner, int balance) {
+		this.owner = owner;
+		this.balance = balance;
+	}
+	
+	
+}
+
+
+

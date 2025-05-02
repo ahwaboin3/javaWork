@@ -15,11 +15,11 @@ public class Show {
 	}
 	
 	String getFields() {
-		return "Show [genre=" + genre + 
-			", openDate=" + openDate + ", ott=" + ott 
-			+ ", episodes=" + episodes + "]";
+		return "Show:[genre="+genre+", openDate="
+				+openDate+", ott="+ott+", episodes="
+				+episodes+"]";
 	}
-
+	
 	public static void main(String[] args) {
 		Show s1=new Show("리얼버라이티","25년 4월 8일"
 				,"넷플릭스",9);

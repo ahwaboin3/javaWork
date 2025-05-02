@@ -1,0 +1,30 @@
+package makeclass;
+
+public class Account {
+	String owner;
+	int balance;
+	
+	public Account(String owner, int balance) {
+		this.owner = owner;
+		this.balance = balance;
+	}
+	
+	//입금
+	int deposit(int m) {
+		balance+=m;
+		return balance;
+	}
+	
+	//출금
+	int withdraw(int m) {
+		balance-=m;
+		return balance;
+	}
+	
+}
+
+
+
+
+
+
