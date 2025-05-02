@@ -25,9 +25,6 @@ public class Grade {
 	public static void main(String[] args) {
 		Grade g=new Grade(90,70,85);
 		System.out.println(g.getAvr());
-		//객체 외부에서 호출
-		//클래스로부터 객체를 생성해야 합니다.
-		//참조변수.메소드(매개값,...)
 	}
 }
 
