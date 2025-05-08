@@ -1,0 +1,6 @@
+package c07;
+
+public class GPhone extends Phone{
+	boolean sPay=true;
+
+}

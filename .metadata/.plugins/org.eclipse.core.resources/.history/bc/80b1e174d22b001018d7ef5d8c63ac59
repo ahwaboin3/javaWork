@@ -1,0 +1,5 @@
+package c07.book;
+
+public class BorrowBook extends Book{
+
+}

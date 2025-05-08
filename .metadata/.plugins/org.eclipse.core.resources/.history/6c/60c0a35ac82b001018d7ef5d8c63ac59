@@ -1,0 +1,6 @@
+package c06.accessmodifier.field;
+
+public class GetterSetter01 {
+	private int age;
+
+}

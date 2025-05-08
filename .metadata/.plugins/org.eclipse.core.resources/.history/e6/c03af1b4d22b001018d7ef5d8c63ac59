@@ -1,0 +1,20 @@
+package c07.book;
+
+public class BorrowBook extends Book{
+	private String backDay;
+
+	public BorrowBook(String name, String backDay) {
+		super(name);
+		this.backDay = backDay;
+	}
+
+	public String getAllFields() {
+		return "BorrowBook [backDay=" + backDay + "]";
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	
+}
