@@ -1,0 +1,8 @@
+package c06.finalfield;
+
+//상수
+//상수 처음에 값을 대입하면 나중에 값을 바꿀수 없는 값
+
+public class ConstantVar {
+	String nation="Korea";
+}
