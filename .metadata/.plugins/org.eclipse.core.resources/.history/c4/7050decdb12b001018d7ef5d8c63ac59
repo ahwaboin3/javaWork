@@ -1,0 +1,11 @@
+package c06.finalfield;
+
+public class CircleMain {
+	
+	public static void main(String[] args) {
+		//원이 넓이
+		Circle c=new Circle();
+		double b1=c.getArea(3);
+	}
+
+}

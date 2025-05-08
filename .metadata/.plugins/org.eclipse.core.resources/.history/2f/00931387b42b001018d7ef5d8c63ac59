@@ -1,0 +1,8 @@
+package c06.pakageapproach;
+
+public class ImportDetails {
+	public static void main(String[] args) {
+		
+	}
+
+}
