@@ -1,0 +1,11 @@
+package c06.accessmodifier.field2;
+
+import c06.accessmodifier.field.FieldAccess;
+
+public class AnotherClass {
+	
+	public static void main(String[] args) {
+		FieldAccess fa=new FieldAccess();
+	}
+
+}

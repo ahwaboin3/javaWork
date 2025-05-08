@@ -1,0 +1,14 @@
+package c06.accessmodifier.field;
+
+public class Car {
+	private int speed;
+	
+	public void setSpeed(int speed) {
+		this.speed=speed;
+	}
+	
+	public static void main(String[] args) {
+		Car c=new Car();
+		
+	}
+}

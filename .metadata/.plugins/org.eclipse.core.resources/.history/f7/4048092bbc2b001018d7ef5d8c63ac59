@@ -1,0 +1,9 @@
+package c06.accessmodifier.publicclass;
+
+class DefaultClass {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
