@@ -1,0 +1,5 @@
+package c06.staticmember;
+//정적 멤버와 static
+public class StaticMember {
+
+}

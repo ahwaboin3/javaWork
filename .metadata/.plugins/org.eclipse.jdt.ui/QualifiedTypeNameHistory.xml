@@ -10,4 +10,8 @@
     <fullyQualifiedTypeName name="c06.method.MeParam"/>
     <fullyQualifiedTypeName name="c06.method.Varargs"/>
     <fullyQualifiedTypeName name="c06.method.MeRe"/>
+    <fullyQualifiedTypeName name="c06.method.MeOver"/>
+    <fullyQualifiedTypeName name="makeclass.Movie"/>
+    <fullyQualifiedTypeName name="makeclass.Account"/>
+    <fullyQualifiedTypeName name="makeclass.Lotto"/>
 </qualifiedTypeNameHistroy>

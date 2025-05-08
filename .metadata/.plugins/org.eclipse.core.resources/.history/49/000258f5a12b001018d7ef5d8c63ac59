@@ -1,0 +1,7 @@
+package c06.question;
+
+public class MemberService {
+	boolean login(String id, String password) {
+		
+	}
+}

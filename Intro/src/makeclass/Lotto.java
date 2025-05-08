@@ -33,6 +33,8 @@ public class Lotto {
 		nums=rans;
 	}
 	
+	//.pop()- 자바스크립트
+	
 	
 	public static void main(String[] args) {
 		Lotto l1=new Lotto(new int[]{1,2,3,4,6});

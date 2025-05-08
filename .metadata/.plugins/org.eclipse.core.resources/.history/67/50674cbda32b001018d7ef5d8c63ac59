@@ -1,0 +1,9 @@
+package c06.question;
+
+public class PrinterExample {
+	Printer p=new Printer();
+	public static void main(String[] args) {
+		
+	}
+
+}
