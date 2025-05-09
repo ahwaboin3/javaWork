@@ -15,7 +15,7 @@ public class BookApp {
 		BookRepo br=new BookRepo();
 		Book book1=br.getBook("웹 표준의 정석1");
 		br.addBook(book1);
-		br.addBook(br.getBook("SQL 입문1"));
+		br.addBook(br.getBook("SQL 입문"));
 		Book[] books1=br.getBooks();
 //		System.out.println(br.getBooks()[0].toString());
 		System.out.println(books1[0].toString());
