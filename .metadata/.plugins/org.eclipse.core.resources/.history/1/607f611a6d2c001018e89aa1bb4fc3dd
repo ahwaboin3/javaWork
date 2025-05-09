@@ -1,0 +1,6 @@
+package c07.task.gs;
+
+public class Computer {
+	private String spec;
+
+}

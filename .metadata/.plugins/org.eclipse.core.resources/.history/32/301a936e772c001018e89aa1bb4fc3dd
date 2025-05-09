@@ -1,0 +1,7 @@
+package c07.autocast;
+
+public class Cat extends Animal{
+	public static void main(String[] args) {
+		Animal a1=new Cat();
+	}
+}

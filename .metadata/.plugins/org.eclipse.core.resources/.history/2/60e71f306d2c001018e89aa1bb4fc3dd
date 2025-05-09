@@ -1,0 +1,14 @@
+package c07.task.gs;
+
+public class Computer {
+	
+	private String spec;
+	
+	public void setSpec(String spec) {
+		this.spec=spec;
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

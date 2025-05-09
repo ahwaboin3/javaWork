@@ -1,7 +1,0 @@
-package c06;
-
-public class Waffle {
-	String paste;
-	String syrup;
-	int price;
-}

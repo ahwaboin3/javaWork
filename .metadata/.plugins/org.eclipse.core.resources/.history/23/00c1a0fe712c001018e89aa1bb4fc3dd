@@ -1,0 +1,5 @@
+package c07.overriding;
+
+public class Computer extends Calculator {
+	
+}

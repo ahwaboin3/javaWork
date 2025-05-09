@@ -1,8 +1,0 @@
-package c05;
-
-public class WhereLunch {
-	public static void main(String[] args) {
-		String[] shop= {"식당1","식당2","식당3","식당4"};
-	}
-
-}

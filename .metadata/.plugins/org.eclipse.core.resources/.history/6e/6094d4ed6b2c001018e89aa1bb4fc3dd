@@ -1,0 +1,17 @@
+package c07.task;
+
+public class Lantop extends Computer {
+	private String bat;
+
+	public Lantop(String spec, String bat) {
+		super(spec);
+		this.bat = bat;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,7 @@
+package c07.overriding;
+
+public class Computer extends Calculator {
+	public static void main(String[] args) {
+		
+	}
+}

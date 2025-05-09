@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="c06.Student"/>
     <fullyQualifiedTypeName name="c06.Waffle"/>
     <fullyQualifiedTypeName name="c06.FieldUse"/>
@@ -14,4 +13,27 @@
     <fullyQualifiedTypeName name="makeclass.Movie"/>
     <fullyQualifiedTypeName name="makeclass.Account"/>
     <fullyQualifiedTypeName name="makeclass.Lotto"/>
+    <fullyQualifiedTypeName name="c06.question.MemberService"/>
+    <fullyQualifiedTypeName name="c06.question.Printer"/>
+    <fullyQualifiedTypeName name="c06.staticmember.StaticMember"/>
+    <fullyQualifiedTypeName name="c06.singletone.Singleton"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="c02.BooleanType"/>
+    <fullyQualifiedTypeName name="c06.finalfield.FinalField"/>
+    <fullyQualifiedTypeName name="c06.pakageapproach.PakageDetails"/>
+    <fullyQualifiedTypeName name="c06.finalfield.Circle"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="c06.finalfield.CircleGirth"/>
+    <fullyQualifiedTypeName name="c06.user1.User"/>
+    <fullyQualifiedTypeName name="c06.accessmodifier.publicclass.PublicClass"/>
+    <fullyQualifiedTypeName name="c06.accessmodifier.AccessDetails"/>
+    <fullyQualifiedTypeName name="c06.accessmodifier.field.FieldAccess"/>
+    <fullyQualifiedTypeName name="c06.accessmodifier.field.GetterSetter01"/>
+    <fullyQualifiedTypeName name="c06.getset.Member01"/>
+    <fullyQualifiedTypeName name="c07.GPhone"/>
+    <fullyQualifiedTypeName name="c07.book.BorrowBook"/>
+    <fullyQualifiedTypeName name="c07.user.UserForeigner"/>
+    <fullyQualifiedTypeName name="c07.phone.SPhone"/>
 </qualifiedTypeNameHistroy>

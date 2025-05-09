@@ -1,0 +1,10 @@
+package c07.overriding;
+
+//Object 클래스를 자동 상속한다
+//모든 클래스의 최상위 클래스는 Object 클래스다
+public class User{
+
+	private String id;
+	private String pass;
+
+}

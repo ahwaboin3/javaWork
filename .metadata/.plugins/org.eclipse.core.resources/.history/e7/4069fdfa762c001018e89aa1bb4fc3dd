@@ -1,0 +1,10 @@
+package c07.autocast;
+
+//자동 타입 변환
+public class AutoCast {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

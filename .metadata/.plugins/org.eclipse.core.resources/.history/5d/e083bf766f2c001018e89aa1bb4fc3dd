@@ -1,0 +1,9 @@
+package c07.overriding;
+
+//메소드 재정의
+//부모 메소드의 메소드를 자식 클래스가 사용하기에 적합하게
+//다시 수정해서 사용해야 합니다.
+//이런 경우를 위해 메소드 재정의(Overrinding)기능을 제공합니다.
+public class OverDetails {
+
+}

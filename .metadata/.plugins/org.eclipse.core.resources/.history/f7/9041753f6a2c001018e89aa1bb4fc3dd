@@ -1,0 +1,12 @@
+package c07.task;
+
+public class Computer {
+	private String spec;
+	
+	public static void main(String[] args) {
+		Computer c1=new Computer();
+		//CRUD - create, read, update, delete
+		//생성, 조회, 수정, 삭제
+		//1. 생성자 2. 게더세더
+	}
+}

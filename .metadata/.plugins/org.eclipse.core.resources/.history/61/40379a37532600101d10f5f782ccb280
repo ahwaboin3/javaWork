@@ -1,9 +1,0 @@
-package c06.method;
-
-public class Varargs {
-	//매개 변수의 개수를 모를 경우
-	//몇개의 수가 들어 오던 모든 합을 구하는 기능
-	int sum(int[] values) {
-		return 0;
-	}
-}

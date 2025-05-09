@@ -1,0 +1,12 @@
+package c07.overriding;
+
+//Object 클래스를 자동 상속한다
+public class User extend Object{
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
+}
