@@ -1,0 +1,5 @@
+package c07.autocast.book;
+
+public class BorrowBook extends Book {
+	private String returnDay;
+}

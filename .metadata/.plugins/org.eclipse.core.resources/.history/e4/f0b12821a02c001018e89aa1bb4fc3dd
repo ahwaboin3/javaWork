@@ -1,0 +1,10 @@
+package c08;
+
+public class Television {
+	
+	public static void main(String[] args) {
+//		RemoteControl rc=new RemoteControl();
+		RemoteA remoteA=new RemoteA();
+	}
+
+}

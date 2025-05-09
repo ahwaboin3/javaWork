@@ -1,0 +1,6 @@
+package c07.casting;
+
+//강제 타입 변환
+public class CastingDetails {
+
+}

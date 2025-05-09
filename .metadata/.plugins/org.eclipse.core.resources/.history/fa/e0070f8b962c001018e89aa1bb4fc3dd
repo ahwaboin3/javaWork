@@ -1,0 +1,6 @@
+package c07.casting;
+
+public class Parent {
+	private String filed1;
+
+}

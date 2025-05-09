@@ -3,28 +3,34 @@ package c07.autocast.book;
 public class BookApp {
 	
 	public static void main(String[] args) {
-		Book b1=new Book();
-		b1.setName("웹 표준의 정석");
-		Book b2=new Book();
-		b2.setName("SQL 입문");
-		
-		Book[] books=new Book[100];
-		books[0]=b1;
-		System.out.println(books[0].toString());
-		
 		BookRepo br=new BookRepo();
 		Book book1=br.getBook("웹 표준의 정석1");
 		br.addBook(book1);
 		br.addBook(br.getBook("SQL 입문1"));
+		br.addBook(br.getBook("java 에센셜"));
 		Book[] books1=br.getBooks();
-//		System.out.println(br.getBooks()[0].toString());
-		System.out.println(books1[0].toString());
-		System.out.println(books1[1]);
-		
 		br.printBooks();
 		
-		//책의 정보를 생성하고 조회하는 기능
-		//String[] strArr
+		//자동 형 변환
+		Book book2=new Book();
+		Book book3=new BorrowBook();
+		
+		//빌린책 정보를 Book[]배열에 넣기
+		BorrowBook bb1=new BorrowBook();
+		bb1.setName("jsp 자바 웹 프로그래밍");
+		bb1.setReturnDay("2025-05-13");
+		br.addBook(bb1);
+		//매개 변수의 다형성
+		//자동 타입 변환은 필드의 값은 대입할 때에도 발생하지만
+		//주로 메소드를 호출할 때 많이 발생합니다.
+		br.printBooks();
+		
 	}
 
 }
+
+
+
+
+
+

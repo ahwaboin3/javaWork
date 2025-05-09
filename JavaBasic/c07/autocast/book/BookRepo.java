@@ -1,6 +1,7 @@
 package c07.autocast.book;
 
 public class BookRepo {
+	
 	private Book[] books=new Book[100];
 	private int cnt=0;
 	
@@ -18,7 +19,6 @@ public class BookRepo {
 	//배열에 book 객체 넣기
 	public void addBook(Book book) {
 		books[cnt++]=book;
-		System.out.println("책이 "+cnt+"개 저장되었습니다.");
 	}
 	
 	//배열의 모든 책 정보 조회하기
