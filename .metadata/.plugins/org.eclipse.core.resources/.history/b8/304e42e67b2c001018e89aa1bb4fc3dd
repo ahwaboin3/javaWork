@@ -1,0 +1,6 @@
+package c07.autocast.book;
+
+public class BookRepo {
+	private Book[] books=new Book[100];
+
+}

@@ -1,0 +1,21 @@
+package c07.autocast.book;
+
+public class BookApp {
+	
+	public static void main(String[] args) {
+		Book b1=new Book();
+		b1.setName("웹 표준의 정석");
+		Book b2=new Book();
+		b2.setName("SQL 입문");
+		
+		Book[] books=new Book[100];
+		books[0]=b1;
+		System.out.println(books[0].toString());
+		
+		BookRepo br=new BookRepo();
+		Book book1=br.getBook("웹 표준의 정석");
+		br.addBook(book1);
+		System.out.println(br.getBooks().toString());
+	}
+
+}
