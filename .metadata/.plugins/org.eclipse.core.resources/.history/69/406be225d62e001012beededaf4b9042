@@ -1,0 +1,12 @@
+package c08.car;
+
+public class Car {
+	
+	private Tire frontLeftTire=new HankookTire();
+	private Tire frontRightTire=new KumhoTire();
+	
+	public void run() {
+		frontLeftTire.roll();
+		frontRightTire.roll();
+	}
+}

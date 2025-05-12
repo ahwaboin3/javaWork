@@ -1,0 +1,6 @@
+package c08.car;
+
+public class Car {
+	Tire frontLeftTire;
+	Tire frontRightTire;
+}

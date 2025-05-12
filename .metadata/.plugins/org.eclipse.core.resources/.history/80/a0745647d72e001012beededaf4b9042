@@ -1,0 +1,12 @@
+package c08.driver;
+
+public class DriverMain {
+	
+	public static void main(String[] args) {
+		Driver driver=new Driver();
+		//Vehicle vehicle=new Bus()
+		//Vehicle vehicle=new Taxi()
+		driver.drive(null);
+	}
+
+}

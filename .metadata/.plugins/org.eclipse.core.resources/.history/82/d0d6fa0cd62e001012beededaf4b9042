@@ -1,0 +1,11 @@
+package c08.car;
+
+public class Car {
+	private Tire frontLeftTire;
+	private Tire frontRightTire;
+	
+	public void run() {
+		frontLeftTire.roll();
+		frontRightTire.roll();
+	}
+}

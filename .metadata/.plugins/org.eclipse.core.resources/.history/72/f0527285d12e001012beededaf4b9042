@@ -1,0 +1,11 @@
+package c08.comprinter;
+
+public class LPrinter implements Printable {
+
+	@Override
+	public void print(String str) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
