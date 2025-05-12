@@ -1,6 +1,0 @@
-package makeclass;
-
-public class Movie {
-	String title;
-	String open;
-}

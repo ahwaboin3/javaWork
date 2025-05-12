@@ -1,0 +1,5 @@
+package c07.friend;
+
+public class FriendRepo {
+	private Friend[] friends=new Friend[100];
+}

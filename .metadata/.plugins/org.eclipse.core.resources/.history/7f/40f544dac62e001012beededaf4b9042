@@ -1,0 +1,10 @@
+package c07.friend;
+
+public class FriendMain {
+	
+	public static void main(String[] args) {
+		//친구 객체 생성
+		Friend f1=new Friend();
+	}
+
+}

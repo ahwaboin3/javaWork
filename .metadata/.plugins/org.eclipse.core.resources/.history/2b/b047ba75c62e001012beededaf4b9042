@@ -1,0 +1,9 @@
+package c07.friend;
+
+public class FriendMain {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

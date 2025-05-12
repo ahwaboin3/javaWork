@@ -1,0 +1,10 @@
+package c07.friend;
+
+public class FriendRepo {
+	private Friend[] friends=new Friend[100];
+	
+	//친구 객체를 배열에 저장
+	public void putFriend(Friend f) {
+		friends[0]=f;
+	}
+}

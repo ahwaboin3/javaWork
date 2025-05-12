@@ -1,0 +1,5 @@
+package c07.friend;
+
+public class MarriedFriend extends Friend{
+	private String marryDay;
+}

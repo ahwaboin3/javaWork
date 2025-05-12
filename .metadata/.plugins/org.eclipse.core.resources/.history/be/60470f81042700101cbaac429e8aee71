@@ -1,6 +1,0 @@
-package makeclass;
-
-public class Account {
-	String owner;
-	int balance;
-}

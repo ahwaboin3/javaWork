@@ -36,4 +36,10 @@
     <fullyQualifiedTypeName name="c07.book.BorrowBook"/>
     <fullyQualifiedTypeName name="c07.user.UserForeigner"/>
     <fullyQualifiedTypeName name="c07.phone.SPhone"/>
+    <fullyQualifiedTypeName name="c07.task.gs.Lantop"/>
+    <fullyQualifiedTypeName name="c07.autocast.book.Book"/>
+    <fullyQualifiedTypeName name="c07.autocast.book.BorrowBook"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="c07.casting.Parent"/>
+    <fullyQualifiedTypeName name="c08.RemoteControl"/>
 </qualifiedTypeNameHistroy>
