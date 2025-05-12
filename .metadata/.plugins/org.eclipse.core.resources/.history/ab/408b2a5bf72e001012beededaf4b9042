@@ -1,0 +1,6 @@
+package c09;
+
+//NumberFormatException
+public class NumberException {
+
+}

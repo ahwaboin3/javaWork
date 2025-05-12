@@ -1,0 +1,26 @@
+package c09.handle;
+
+//예외 처리
+//프로그램에서 예외가 발생했을 경우 프로그램의 갑작스러운 종료를
+//막고, 정상 실행을 유지할 수 있도록 예외 처리를 해야 합니다.
+public class HandleException {
+	public static void main(String[] args) {
+		//예외 처리 코드
+		/*
+		 * try{
+		 *   예외 발생 가능 코드
+		 * }catch(){
+		 * 	예외 처리
+		 * }finally{->생략 가능
+		 * 	항상 실행
+		 * }
+		 */
+		String str1=null;
+		try {
+			System.out.println(str1.toString());
+		}catch(NullPointerException e) {
+			System.out.println("null 값을 참조 되어 있습니다.");
+		}
+		System.out.println("다음 코드");
+	}
+}

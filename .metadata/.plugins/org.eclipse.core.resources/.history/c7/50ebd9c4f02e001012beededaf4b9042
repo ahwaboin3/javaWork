@@ -1,0 +1,9 @@
+package c09;
+
+public class PutAge {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

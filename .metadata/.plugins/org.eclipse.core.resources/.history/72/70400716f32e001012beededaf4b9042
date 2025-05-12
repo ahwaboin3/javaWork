@@ -1,0 +1,12 @@
+package c09;
+
+//실행 예외
+public class RunException {
+	public static void main(String[] args) {
+		//NullPointerExeption
+		//객체 참조가 없는 상태, 
+		String data1="data1";
+		String data2;
+	}
+
+}

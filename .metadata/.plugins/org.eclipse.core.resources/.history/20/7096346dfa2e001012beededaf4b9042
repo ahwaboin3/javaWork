@@ -1,0 +1,5 @@
+package c09.handle;
+
+public class HandleException {
+
+}

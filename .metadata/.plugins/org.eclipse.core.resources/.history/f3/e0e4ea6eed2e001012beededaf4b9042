@@ -1,0 +1,9 @@
+package c08.shoes;
+
+public class Person {
+	//연습할 때는 쿠션화
+	//대회때는 카본화
+	public void run() {
+		System.out.println("달립니다.");
+	}
+}

@@ -1,0 +1,11 @@
+package c08.shoes;
+
+public class Cushion implements Shoe {
+
+	@Override
+	public void putOn() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

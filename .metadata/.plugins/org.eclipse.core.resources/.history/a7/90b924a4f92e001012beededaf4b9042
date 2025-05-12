@@ -1,0 +1,15 @@
+package c09;
+
+//ClassCastException
+//타입 변환은 상위 클래스와 하위 클래스 간에 발생하고
+//구현 클래스와 인터페이스 간에도 발생합니다.
+//위의 두 관계가 아니라면 클래스는 다른 타입으로 변환할 수
+//없기 때문에 ClassCastException이 발생합니다.
+public class ClassForceException {
+	
+	public static void main(String[] args) {
+		Cat c1=new Cat();
+//		Dog d1=(Dog)c1;
+	}
+
+}

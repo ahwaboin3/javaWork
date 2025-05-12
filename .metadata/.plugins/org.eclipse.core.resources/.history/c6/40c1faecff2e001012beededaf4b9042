@@ -1,0 +1,25 @@
+package c09.trystep;
+
+public class StepTry {
+	public static void main(String[] args) {
+		//태어 난 해를 입력 받아 나이를 계산
+		//2025-1995=30 만 30세
+		String curYear="2025b";
+		String bornYear="1995";
+		int curYearInt=0;
+		int bornYearInt=0;
+		try {
+			curYearInt=Integer.parseInt(curYear);
+			bornYearInt=Integer.parseInt(bornYear);
+		}catch(NumberFormatException e) {
+			System.out.println("숫자로 입력해 주세요.");
+		}finally {
+			System.out.println("finally");
+		}
+		System.out.println(
+				"만 나이는 "+(curYearInt-bornYearInt));
+	}
+}
+
+
+

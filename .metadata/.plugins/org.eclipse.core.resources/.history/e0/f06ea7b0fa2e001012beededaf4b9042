@@ -1,0 +1,9 @@
+package c09.handle;
+
+//예외 처리
+//프로그램에서 예외가 발생했을 경우 
+public class HandleException {
+	public static void main(String[] args) {
+		inte i=0;
+	}
+}

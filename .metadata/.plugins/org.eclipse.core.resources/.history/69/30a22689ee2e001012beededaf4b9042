@@ -1,0 +1,8 @@
+package c09;
+
+public class FriendMain {
+	public static void main(String[] args) {
+		
+	}
+
+}

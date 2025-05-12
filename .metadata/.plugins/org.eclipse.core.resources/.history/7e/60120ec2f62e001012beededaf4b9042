@@ -1,0 +1,24 @@
+package c09;
+
+//ArrayIndexOutOfBoundsException
+//배열에서 인덱스 범위를 초과할 경우 실행 예외인
+//ArrayIndexOutOfBoundsException이 발생합니다.
+public class ArrayBounds {
+	public static void main(String[] args) {
+		String[] strs=new String[3];
+		strs[0]="java";
+		strs[1]="eclipse";
+//		for(int i=0;i<=3;i++) {
+//			System.out.println(strs[i]);
+//		}
+		//strs[0]
+		//strs[1]
+		//strs[2]
+		//strs[3]->out of bounds Exception 발생
+//		System.out.println(strs[2].toString());
+	}
+
+}
+
+
+

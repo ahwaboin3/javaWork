@@ -1,0 +1,13 @@
+package c09;
+
+import java.util.Scanner;
+
+public class FriendMain {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.print("메뉴 선택:");
+		int choice=scanner.nextLine();
+		System.out.println(choice);
+	}
+
+}

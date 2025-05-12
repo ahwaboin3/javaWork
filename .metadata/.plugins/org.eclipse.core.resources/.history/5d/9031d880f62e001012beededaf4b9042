@@ -1,0 +1,23 @@
+package c09;
+
+//실행 예외
+public class RunException {
+	private String[] strArr;
+	
+	public static void main(String[] args) {
+		//NullPointerExeption
+		//객체 참조가 없는 상태, null값을 갖는 참조 변수로
+		//객체 접근 연산자인 도트(.)를 사용했을 때 발생합니다.
+		String data1="data1";
+		String data2=null;
+		System.out.println(data2.toString());
+		String[] strs=null;
+		RuntimeException re=new RuntimeException();
+	}
+
+}
+
+
+
+
+
