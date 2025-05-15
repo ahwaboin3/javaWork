@@ -1,0 +1,15 @@
+package c10.object;
+
+public class SystemClass {
+	public static void main(String[] args) {
+		System.out.println("");
+		//System 클래스
+		//프로그램 종료 (exit())
+		while(true) {
+//			return;
+			System.exit(0);
+		}
+		
+	}
+
+}

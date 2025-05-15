@@ -1,0 +1,8 @@
+package c10.object;
+
+//객체 문자 정보(toString())
+public class ToString {
+	private String name;
+	private String phone;
+
+}

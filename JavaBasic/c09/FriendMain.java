@@ -1,14 +1,22 @@
 package c09;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class FriendMain {
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
 		System.out.print("메뉴 선택:");
-		int choice=scanner.nextInt();
-		System.out.print("선택한 숫자는 ");
-		System.out.println(choice);
+		try {
+			int choice=scanner.nextInt();
+			System.out.print("선택한 숫자는 ");
+			System.out.println(choice);
+		}catch(InputMismatchException e) {
+			System.out.println("정수를 입력하세요");
+		}
+		System.out.println("프로그램 종료");
 	}
 
 }
+
+

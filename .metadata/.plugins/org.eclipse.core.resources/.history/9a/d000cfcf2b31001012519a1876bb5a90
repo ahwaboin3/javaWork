@@ -1,0 +1,6 @@
+package c10.object;
+
+//기본 라이브러리(api, module)
+public class ObjectClass {
+
+}

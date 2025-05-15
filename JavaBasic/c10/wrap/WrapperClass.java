@@ -1,0 +1,48 @@
+package c10.wrap;
+
+public class WrapperClass {
+	public static void main(String[] args) {
+		int i1=42;
+		Integer i2=42;
+		//Wrapper(포장) 클래스
+		//byte -> Byte
+		//char -> Character
+		//short -> Short
+		//int -> Integer
+		//long -> Long
+		//float -> Float
+		//double -> Double
+		//boolean -> Boolean
+		int i3=42;
+		Integer i4=i3;
+		int i5=i3;
+		int i6=i4;
+		//박싱(Boxing)와 언박싱(Unboxing)
+		//오토 박싱, 오토 언박싱-> 자동 박싱과 언박싱
+		//<Integer>
+		
+		Integer i7=new Integer(42);
+//		System.out.println(i7);
+		int i8=i7.valueOf(i7);
+		
+		//문자열을 정수로 변환
+		String strNum="42";
+//		int i9=Integer.parseInt(strNum);
+		
+		//포장 값 비교
+		Integer obj1=42;
+		Integer obj2=42;
+		if(obj1==obj2) {
+			System.out.println("같습니다.");
+		}else {
+			System.out.println("다릅니다.");
+		}
+		Integer obj3=new Integer(42);
+		if(obj1==obj3) {
+			System.out.println("같습니다.");
+		}else {
+			System.out.println("다릅니다.");
+		}
+	}
+
+}

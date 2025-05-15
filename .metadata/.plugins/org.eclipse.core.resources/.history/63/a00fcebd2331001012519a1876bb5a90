@@ -1,0 +1,8 @@
+package c09.multi;
+
+public class SuperException {
+	public static void main(String[] args) {
+		
+	}
+
+}

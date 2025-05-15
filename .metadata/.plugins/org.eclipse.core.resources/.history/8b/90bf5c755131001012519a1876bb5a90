@@ -1,0 +1,9 @@
+package c10.string;
+
+public class SubString {
+	public static void main(String[] args) {
+		//문자열 잘라내기(substring())
+		
+	}
+
+}

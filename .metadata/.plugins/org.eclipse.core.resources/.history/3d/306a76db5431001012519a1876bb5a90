@@ -1,0 +1,18 @@
+package c10.wrap;
+
+public class WrapperClass {
+	public static void main(String[] args) {
+		int i1=42;
+		Integer i2=42;
+		//Wrapper(포장) 클래스
+		//byte -> Byte
+		//char -> Character
+		//short -> Short
+		//int -> Integer
+		//long -> Long
+		//float -> Float
+		//double -> Double
+		//boolean -> Boolean
+	}
+
+}

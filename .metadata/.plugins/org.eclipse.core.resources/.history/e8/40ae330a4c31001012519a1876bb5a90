@@ -1,0 +1,8 @@
+package c10.string;
+
+public class IndexOfMethod {
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package c09.method;
+
+public class ExceptionMethod {
+	private String name;
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public static void main(String[] args) {
+		ExceptionMethod em=new ExceptionMethod();
+		String n=em.getName();
+		try {
+			if(n.equals("김자바")) {
+				System.out.println("일치 합니다.");
+			}
+		}catch(NullPointerException e) {
+			e.printStackTrace();
+			System.out.println(e.getMessage());
+			System.out.println("Null값을 사용하려했습니다.");
+		}
+		System.out.println("예외처리 블록 이후 코드");
+	}
+
+}

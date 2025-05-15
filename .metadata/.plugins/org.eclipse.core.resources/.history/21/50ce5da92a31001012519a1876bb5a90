@@ -1,0 +1,23 @@
+package c09.order;
+
+//다중 catch문에서의 순서
+public class ExceptionOrder {
+	private String name;
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public static void main(String[] args) {
+		ExceptionOrder eo=new ExceptionOrder();
+		System.out.println(eo.getName());
+		eo.getName().toString();
+		eo.setName("42a");
+		int number=Integer.parseInt(eo.getName());
+	}
+
+}

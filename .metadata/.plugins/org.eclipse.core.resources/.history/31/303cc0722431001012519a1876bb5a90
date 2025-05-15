@@ -1,0 +1,9 @@
+package c09.method;
+
+public class ExceptionMethod {
+	String name;
+	public static void main(String[] args) {
+		
+	}
+
+}

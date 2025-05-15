@@ -1,0 +1,10 @@
+package c10.object;
+
+public class Equals {
+	public static void main(String[] args) {
+		User[] users=new User[100];
+		User user=new User();
+		users[0]=user;
+	}
+
+}

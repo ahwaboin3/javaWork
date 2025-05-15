@@ -1,0 +1,19 @@
+package c10.object;
+
+public class SystemClass {
+	public static void main(String[] args) {
+		System.out.println("");
+		//System 클래스
+		//프로그램 종료 (exit())
+		//exit()메소드는 현재 실행하고 있는 프로그레스를
+		//강제 종료시키는 역활을 합니다.
+		//일반적으로 정상 종료일 경우 0값을 줍니다.
+		while(true) {
+//			return;
+			System.out.println("while문 실행");
+			System.exit(0);
+		}
+		
+	}
+
+}

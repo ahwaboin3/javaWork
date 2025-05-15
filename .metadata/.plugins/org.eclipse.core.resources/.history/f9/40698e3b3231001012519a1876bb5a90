@@ -1,0 +1,8 @@
+package c10.object;
+
+public class Equals2 {
+	public static void main(String[] args) {
+		
+	}
+
+}

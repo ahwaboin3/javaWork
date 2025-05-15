@@ -1,0 +1,8 @@
+package c10.object;
+
+//기본 라이브러리(api, module)
+//Object 클래스
+//다른 클래스를 상속하지 않으면은 Object클래스를 상속하게 됩니다.
+public class ObjectClass {
+
+}

@@ -1,0 +1,24 @@
+package c10.object;
+
+public class Equals2 {
+	public static void main(String[] args) {
+		User user1=new User();
+		user1.setId("java");
+		User user2=new User();
+		user2.setId("eclipse");
+		User[] users=new User[10];
+		users[0]=user1;
+		users[1]=user2;
+		User user3=new User();
+		user3.setId("java");
+		//아이디 사용 가능 여부를 판단
+		for(int i=0;i<2;i++) {
+			if(users[i].getId()==user3.getId()) {
+				System.out.println("일치하는 아이디 있음");
+			}else{
+				System.out.println("아이디 사용 가능");
+			}
+		}
+	}
+
+}

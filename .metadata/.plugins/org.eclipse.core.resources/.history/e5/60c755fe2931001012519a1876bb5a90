@@ -1,0 +1,9 @@
+package c09.order;
+
+//다중 catch문에서의 순서
+public class ExceptionOrder {
+	public static void main(String[] args) {
+		
+	}
+
+}

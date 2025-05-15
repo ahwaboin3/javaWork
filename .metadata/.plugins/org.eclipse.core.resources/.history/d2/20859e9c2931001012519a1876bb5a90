@@ -1,0 +1,28 @@
+package c09.throwexception;
+
+//예외 떠넘기기
+//메소드 내부에서 예외가 발생할 수 있는 코드를 작성할 때 
+//try-catch블록으로 예외를 처리하는 것이 기본이지만
+//경우에 따라서는 메소드를 호출한 곳으로 예외를 떠넘길 수도
+//있습니다. 이 때 사용하는 키워드가 throws입니다.
+public class ThrowException {
+	public String[] createArray() 
+			throws ArrayIndexOutOfBoundsException {
+		String[] strs=new String[2];
+		strs[0]="java";
+		strs[1]="eclipse";
+		strs[2]="spring";
+		return strs;
+	}
+	public void printArray() {
+		String[] strs=createArray();
+		for(String s:strs) {
+			System.out.println(s);
+		}
+	}
+	public static void main(String[] args) {
+		ThrowException te=new ThrowException();
+		te.printArray();
+	}
+
+}

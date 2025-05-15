@@ -1,0 +1,5 @@
+package c09.multi;
+
+public class SuperException {
+
+}

@@ -1,0 +1,14 @@
+package c09.throwexception;
+
+public class ThrowException {
+	public void printArray() {
+		String[] strs=new String[2];
+		strs[0]="java";
+		strs[1]="eclipse";
+		strs[2]="spring";
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

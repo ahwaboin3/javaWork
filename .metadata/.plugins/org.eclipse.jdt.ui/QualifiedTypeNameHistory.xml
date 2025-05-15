@@ -39,7 +39,21 @@
     <fullyQualifiedTypeName name="c07.task.gs.Lantop"/>
     <fullyQualifiedTypeName name="c07.autocast.book.Book"/>
     <fullyQualifiedTypeName name="c07.autocast.book.BorrowBook"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="c07.casting.Parent"/>
+    <fullyQualifiedTypeName name="c07.friend.FriendRepo"/>
+    <fullyQualifiedTypeName name="c07.friend.MarriedFriend"/>
+    <fullyQualifiedTypeName name="c08.comprinter.Printable"/>
+    <fullyQualifiedTypeName name="c08.comprinter.SPrinter"/>
     <fullyQualifiedTypeName name="c08.RemoteControl"/>
+    <fullyQualifiedTypeName name="c08.Speaker"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="c08.car.HankookTire"/>
+    <fullyQualifiedTypeName name="c08.car.KumhoTire"/>
+    <fullyQualifiedTypeName name="c08.driver.Vehicle"/>
+    <fullyQualifiedTypeName name="c08.shoes.Cushion"/>
+    <fullyQualifiedTypeName name="c08.shoes.Carbon"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 </qualifiedTypeNameHistroy>

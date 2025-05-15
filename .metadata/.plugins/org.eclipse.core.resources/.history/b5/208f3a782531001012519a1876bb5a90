@@ -1,0 +1,26 @@
+package c09.method;
+
+public class ExceptionMethod {
+	private String name;
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public static void main(String[] args) {
+		ExceptionMethod em=new ExceptionMethod();
+		String n=em.getName();
+		try {
+			if(n.equals("김자바")) {
+				System.out.println("일치 합니다.");
+			}
+		}catch(NullPointerException e) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,22 @@
+package c09.throwexception;
+
+public class ThrowException {
+	public String[] createArray() {
+		String[] strs=new String[2];
+		strs[0]="java";
+		strs[1]="eclipse";
+		strs[2]="spring";
+		return strs;
+	}
+	public void printArray() {
+		String[] strs=createArray();
+		for(String s:strs) {
+			System.out.println(s);
+		}
+	}
+	public static void main(String[] args) {
+		ThrowException te=new ThrowException();
+		te.printArray();
+	}
+
+}

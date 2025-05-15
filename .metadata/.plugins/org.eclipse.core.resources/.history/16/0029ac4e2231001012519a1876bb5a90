@@ -1,0 +1,15 @@
+package c09.multi;
+
+//다중 예외 처리
+public class MultiException {
+	public static void main(String[] args) {
+		String[] strs=new String[2];
+		String data1=strs[0];
+		String data2=strs[1];
+		int value1=Integer.parseInt(data1);
+		int value2=Integer.parseInt(data2);
+		int result=value1+value2;
+		System.out.println(data1+"+"+data2+"="+result);
+	}
+
+}
