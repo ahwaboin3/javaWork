@@ -1,0 +1,20 @@
+package c11;
+
+import java.time.LocalDate;
+import java.time.Period;
+
+public class LocalDateDemo2 {
+	public static void main(String[] args) {
+		//날짜의 차를 표현하기 위한 Period클래스
+		//오늘
+		LocalDate today=LocalDate.now();
+		System.out.println("Today: "+today);
+		
+		//올 해의 크리스마스
+		LocalDate xmas=LocalDate.of(2025, 12, 25);
+		
+		//크리스마스까지 앞으로 며칠?
+		Period left=Period.between(today, xmas);
+	}
+
+}

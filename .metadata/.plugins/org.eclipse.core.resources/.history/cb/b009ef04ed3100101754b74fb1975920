@@ -1,0 +1,8 @@
+package c10.math;
+
+public class MathMethods {
+	public static void main(String[] args) {
+		//Math 클래스
+		//절대값
+	}
+}

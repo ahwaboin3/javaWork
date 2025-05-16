@@ -1,0 +1,41 @@
+package c11.tast;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.Period;
+import java.util.Scanner;
+
+public class Dday {
+	public static void main(String[] args) {
+		//특정 날짜를 입력
+		Scanner scanner=new Scanner(System.in);
+		System.out.print("날짜 입력(공백):");
+		String iDate=scanner.nextLine();
+		//String 클래스 split()메소드 매개변수 값을 기준으로
+		//문자열을 잘라서 배열로 리턴
+		//String iDate="2025 04 10";
+		//{"2025","05","10"}
+		String[] iDates=iDate.split(" ");
+		int year=Integer.parseInt(iDates[0]);
+		int month=Integer.parseInt(iDates[1]);
+		int day=Integer.parseInt(iDates[2]);
+		LocalDate inDate=LocalDate.of(
+					year, month, day);
+		System.out.println(inDate);
+		LocalDate curDay=LocalDate.now();
+		System.out.println(curDay);
+		Period p=Period.between(inDate, curDay);
+		
+		SimpleDateFormat sdf=
+			new SimpleDateFormat("yyyy년 mm월 d일");
+		String curDayFormated=sdf.format(curDay);
+		
+		System.out.println("입력하신 날짜("
+				+curDayFormated+")와 현재 날짜의 차이");
+		System.out.println(
+			p.getYears()+"년 "+p.getMonths()+"개월 "
+			+p.getDays()+"일"
+		);
+	}
+
+}

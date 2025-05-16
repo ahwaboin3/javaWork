@@ -1,0 +1,10 @@
+package c11.tast;
+
+public class StringMethod {
+	public static void main(String[] args) {
+		String str="csv.파일은.옴점.으로.데이터";
+		String[] strArr=str.split(".");
+		System.out.println(strArr[0]);
+	}
+
+}

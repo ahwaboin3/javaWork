@@ -1,7 +1,0 @@
-package c06.pakageapproach;
-
-//패키지
-//패키지의 물리적인 형태는 파일 시스템의 폴더입니다.
-public class PakageDetails {
-
-}

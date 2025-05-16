@@ -1,0 +1,11 @@
+package c12;
+
+import java.util.List;
+
+public class ColDemo1 {
+	public static void main(String[] args) {
+		List<Integer> list1=new ArrrayList<>();
+		//int -> Integer
+	}
+
+}

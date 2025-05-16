@@ -1,0 +1,8 @@
+package c11.tast;
+
+public class StringMethod {
+	public static void main(String[] args) {
+		
+	}
+
+}

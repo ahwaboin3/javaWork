@@ -1,0 +1,12 @@
+package c11;
+
+import java.util.Date;
+
+//Date 클래스 - 날짜 정보와 관련된 클래스
+//java.util 패키지에 있다
+public class DateDemo {
+	public static void main(String[] args) {
+		Date now=new Date();
+	}
+
+}

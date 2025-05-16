@@ -1,8 +1,0 @@
-package c06.singletone;
-
-public class UseSingle {
-	public static void main(String[] args) {
-		Singleton st=new Singleton();
-	}
-
-}

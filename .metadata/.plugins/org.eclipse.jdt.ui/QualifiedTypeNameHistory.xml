@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="c06.Student"/>
     <fullyQualifiedTypeName name="c06.Waffle"/>
     <fullyQualifiedTypeName name="c06.FieldUse"/>
@@ -53,7 +52,12 @@
     <fullyQualifiedTypeName name="c08.shoes.Cushion"/>
     <fullyQualifiedTypeName name="c08.shoes.Carbon"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+    <fullyQualifiedTypeName name="c09.method.ExceptionMethod"/>
+    <fullyQualifiedTypeName name="c09.throwexception.ThrowException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="c09.order.ExceptionOrder"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

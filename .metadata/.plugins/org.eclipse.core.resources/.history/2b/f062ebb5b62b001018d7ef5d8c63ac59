@@ -1,8 +1,0 @@
-package c06.accessmodifier;
-
-//접근 제한자
-//접근 제한자(Access Modifier)는 말 그대로 접근을 제한 하기
-//위해 사용됩니다. 
-public class AccessDetails {
-
-}

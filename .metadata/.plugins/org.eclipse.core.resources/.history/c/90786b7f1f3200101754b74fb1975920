@@ -1,0 +1,103 @@
+package c12;
+
+import java.util.ArrayList;
+import java.util.List;
+
+//컬렉션 프레임워크
+//자바의 기본 배열은 메소드가 없고 길이가 고정이여서
+//배열 기능을 하는 컬렉션을 쓰기 시작했습니다.
+//자료 구조 - 배열형태, 집합형태, 키와 벨류
+//저장 용량이 자동으로 증가하며, 추가, 삭제, 검색을 위한
+//다양한 메소드들이 제공됩니다.
+public class CollectionDemo {
+	public static void main(String[] args) {
+		//List 컬렉션
+		//List 인터페이스
+		//구현 클래스
+		//ArrayList, LinkedList
+		//<>-제네릭 
+		List<String> list=new ArrayList<String>();
+		ArrayList<String> list1=new ArrayList<String>();
+		List<String> list2=new ArrayList<>();
+		
+		//String 객체를 저장 - add()
+		list.add("Java");
+		list.add("Jsp");
+		list.add("Servlet");
+		
+		//for(String s:list) {
+		//	System.out.println(s);
+		//}
+		
+		//주어진 인덱스에 객체를 추가합니다.
+		//void add(int index, E e)
+		list.add(1,"JDBC");
+		//주어진 인텍스에 저장된 객체를 주어진 객체로 바꿉니다
+		//E set(int index, E e)
+		String str=list.set(2, "JSP");
+		//System.out.println(str+"값으로 변경하였습니다.");
+		//for(String s:list) {
+		//	System.out.println(s);
+		//}
+		//저장된 총 객체 수 얻기 - int size()
+		list.add("jstl");
+		int len=list.size();
+		//System.out.println(len);
+		
+		//E get(int index)
+		//3번 인텍스 값을 가져오기
+		String s1=list.get(3);
+		//System.out.println(s1);
+		
+		//저장된 총 객체 확인
+		//for(int i=0;i<list.size();i++) {
+		//	System.out.println(list.get(i));
+		//}
+		//삭제 - E remove(int index)
+		//주어진 인덱스에 저장된 객체를 삭제합니다.
+		//Servlet 삭제
+		//System.out.println(list.size());
+		list.remove(3);
+		//System.out.println(list.size());
+		//JSP
+		list.remove(2);
+		//for(String s:list) {
+		//	System.out.println(s);
+		//}
+		
+		//주어진 객체가 저장되어 있는 조사합니다.
+		//boolean contains(Object o)
+		//Java 값 검색
+		boolean b=list.contains("Java");
+		if(b) {
+			//System.out.println("Java라는 단어가 있습니다.");
+		}else {
+			//System.out.println("없습니다.");
+		}
+		
+		//boolean remove(Object o)
+		//주어진 객체를 삭제합니다.
+		for(String s:list) {
+			System.out.println(s);
+		}
+		//jstl 삭제
+		boolean isDel=list.remove("jstl");
+		if(isDel) {
+			System.out.println("jstl 삭제");
+		}else {
+			System.out.println("일치하는 값이 없습니다.");
+		}
+		
+		for(String s:list) {
+			System.out.println(s);
+		}
+		
+	}
+
+}
+
+
+
+
+
+

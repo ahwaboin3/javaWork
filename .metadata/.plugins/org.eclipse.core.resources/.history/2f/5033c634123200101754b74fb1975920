@@ -1,0 +1,11 @@
+package c11.tast;
+
+import java.util.Scanner;
+
+public class Dday {
+	public static void main(String[] args) {
+		//특정 날짜를 입력
+		Scanner scanner=new Scanner(System.in);
+	}
+
+}

@@ -1,0 +1,12 @@
+package c11;
+
+import java.time.LocalTime;
+
+public class LocalTimeDemo2 {
+	public static void main(String[] args) {
+		//피시방 이용 시작
+		LocalTime start=LocalTime.of(14, 24, 35);
+		System.out.println("이용 시작 시각"+start);
+	}
+
+}

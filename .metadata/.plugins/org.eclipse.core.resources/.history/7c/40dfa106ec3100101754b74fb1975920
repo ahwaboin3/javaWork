@@ -1,0 +1,16 @@
+package c10.task;
+
+public class StringReplace {
+	public static void main(String[] args) {
+		String oldStr="자바 프로그래밍";
+		String newStr=oldStr.replace("자바", "JAVA");
+		System.out.println(newStr);
+		
+		String str="What the hell";
+		String strNew=str.replace("hell", "heaven");
+		System.out.println(strNew);
+	}
+}
+
+
+

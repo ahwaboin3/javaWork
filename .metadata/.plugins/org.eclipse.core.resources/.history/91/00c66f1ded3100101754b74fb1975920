@@ -1,0 +1,10 @@
+package c10.math;
+
+public class MathMethods {
+	public static void main(String[] args) {
+		//Math 클래스
+		//절대값 int abs(int a), double abs(double a)
+		int v1=Math.abs(-5);
+		System.out.println(v1);
+	}
+}

@@ -1,8 +1,0 @@
-package c06.singletone;
-
-public class CalUse {
-	public static void main(String[] args) {
-		Cal c=new Cal();
-		c.plus(40, 2);
-	}
-}

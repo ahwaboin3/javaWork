@@ -1,0 +1,8 @@
+package c10.task;
+
+public class FindAndReplaceExample {
+	public static void main(String[] args) {
+		
+	}
+
+}

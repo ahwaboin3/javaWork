@@ -1,0 +1,12 @@
+package c11;
+
+import java.time.Instant;
+
+//시각과 날짜의 처리
+public class InstantDemo {
+	public static void main(String[] args) {
+		//시간이 얼마나 걸렸지?: Instant 클래스
+		Instant start=Instant.now();
+	}
+
+}

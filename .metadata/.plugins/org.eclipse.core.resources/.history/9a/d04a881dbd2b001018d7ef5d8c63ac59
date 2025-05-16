@@ -1,8 +1,0 @@
-package c06.accessmodifier.field;
-
-//필드는 private을 붙이자.
-//객체 지향의 4가지 특징
-//추상화, 상속, 다형성, 캡슐화
-public class FieldAccess {
-
-}

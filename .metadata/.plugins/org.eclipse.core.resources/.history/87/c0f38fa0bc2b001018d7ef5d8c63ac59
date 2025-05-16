@@ -1,6 +1,0 @@
-package c06.accessmodifier.field;
-
-//필드는 private을 붙이자.
-public class FieldAccess {
-
-}

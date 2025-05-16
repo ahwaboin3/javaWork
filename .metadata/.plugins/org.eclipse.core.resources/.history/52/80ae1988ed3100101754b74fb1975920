@@ -1,0 +1,23 @@
+package c10.math;
+
+public class MathMethods {
+	public static void main(String[] args) {
+		//Math 클래스
+		//절대값 int abs(int a), double abs(double a)
+		int v1=Math.abs(-5);
+		System.out.println(v1);
+		double v2=Math.abs(-3.14);
+		System.out.println(v2);
+		
+		//올림값 double ceil(double a)
+		double v3=Math.ceil(5.3);
+		System.out.println(v3);
+		//버림값 double floor(double a)
+		double v5=Math.floor(5.3);
+		System.out.println(v5);
+	}
+}
+
+
+
+

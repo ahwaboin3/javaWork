@@ -1,0 +1,9 @@
+package c11;
+
+public class LocalTimeDemo1 {
+	public static void main(String[] args) {
+		//LocalTime 클래스는 시각 정보를 나타내는 클래스
+		//시간 - 두 시간 차, 시각 - 시간의 어느 한 시점
+	}
+
+}

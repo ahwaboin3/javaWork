@@ -1,7 +1,0 @@
-package c06.accessmodifier;
-
-class DClass {
-	public static void main(String[] args) {
-		
-	}
-}

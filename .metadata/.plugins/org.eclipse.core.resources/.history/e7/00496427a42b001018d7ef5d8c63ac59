@@ -1,7 +1,0 @@
-package c06.staticmember;
-
-//정적 멤버와 static
-//정적(static)은 '고정된'이란 의미입니다.
-public class StaticMember {
-
-}

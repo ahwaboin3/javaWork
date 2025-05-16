@@ -1,0 +1,39 @@
+package c10.math;
+
+public class MathMethods {
+	public static void main(String[] args) {
+		//Math 클래스
+		//절대값 int abs(int a), double abs(double a)
+		int v1=Math.abs(-5);
+//		System.out.println(v1);
+		double v2=Math.abs(-3.14);
+//		System.out.println(v2);
+		
+		//올림값 double ceil(double a)
+		double v3=Math.ceil(5.3);
+//		System.out.println(v3);
+		//버림값 double floor(double a)
+		double v5=Math.floor(5.3);
+//		System.out.println(v5);
+		//최대값 int max(int a, int b) double형도 있다
+		int v7=Math.max(5, 9);
+//		System.out.println(v7);
+		//최소값 int min(int a, int b) double형도 있다
+		int v9=Math.min(5, 9);
+//		System.out.println(v9);
+		//랜덤값 double random()
+//		System.out.println(Math.random());
+		//반올림값 long round(double a)
+		long v14=Math.round(5.3);
+//		System.out.println(v14);
+		//반올림값 double rint(double a)
+		double v15=Math.rint(5.7);
+//		System.out.println(v15);
+		
+		//정수의 원하는 범위를 랜덤하게 뽑기
+	}
+}
+
+
+
+

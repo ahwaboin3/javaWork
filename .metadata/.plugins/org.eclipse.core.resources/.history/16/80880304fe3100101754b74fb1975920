@@ -1,0 +1,23 @@
+package c11;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+//Date 클래스 - 날짜 정보와 관련된 클래스
+//java.util 패키지에 있다
+public class DateDemo {
+	public static void main(String[] args) {
+		Date now=new Date();
+		System.out.println(now);
+		//SimpleDateFormat 클래스
+		SimpleDateFormat sdf1=
+			new SimpleDateFormat("yy년");
+		String f1=sdf1.format(now);
+		System.out.println(f1);
+		SimpleDateFormat sdf2=
+				new SimpleDateFormat("yyyy년도");
+		String f2=sdf2.format(now);
+		System.out.println(f2);
+	}
+
+}

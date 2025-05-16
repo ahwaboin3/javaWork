@@ -1,6 +1,0 @@
-package c07.book;
-
-public class Book {
-	private String name;
-
-}
