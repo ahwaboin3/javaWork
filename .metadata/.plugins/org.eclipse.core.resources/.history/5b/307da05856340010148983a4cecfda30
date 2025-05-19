@@ -1,0 +1,13 @@
+package c14;
+
+import java.util.Random;
+
+public class NoParamAndReturn {
+	public static void main(String[] args) {
+		Generator gen;
+		gen=()->{
+			Random rand=new Random();
+		};
+	}
+
+}

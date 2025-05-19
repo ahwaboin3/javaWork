@@ -1,0 +1,9 @@
+package c14;
+
+//람다(lambda)
+public class OneParamNoReturn {
+	public static void main(String[] args) {
+		
+	}
+
+}

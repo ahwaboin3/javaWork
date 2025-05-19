@@ -1,9 +1,0 @@
-package c08.comprinter;
-
-public class Computer {
-	
-	public static void main(String[] args) {
-		//인쇄 명령
-	}
-
-}

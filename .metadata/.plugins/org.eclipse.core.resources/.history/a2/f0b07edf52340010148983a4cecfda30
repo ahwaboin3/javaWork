@@ -1,0 +1,9 @@
+package c14;
+
+public class TwoParamNoReturn {
+	public static void main(String[] args) {
+		Calculate c;
+		c=(x,y)->System.out.println(x+y);
+	}
+
+}

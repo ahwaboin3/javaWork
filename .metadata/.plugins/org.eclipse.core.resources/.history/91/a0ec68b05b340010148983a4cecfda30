@@ -1,0 +1,8 @@
+package c15;
+
+public class FilterStream {
+	public static void main(String[] args) {
+		
+	}
+
+}

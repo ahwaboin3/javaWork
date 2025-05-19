@@ -1,0 +1,12 @@
+package c15;
+
+//스트림(Stream)
+//자료구조에서 중간 연산과 최종 연산을 진행하고,
+//원하는 기준으로 데이터를 필터링하고 필터링 된 데이터의
+//가공된 결과를 얻을 수 있다.
+public class MyFirstStream {
+	public static void main(String[] args) {
+		
+	}
+
+}

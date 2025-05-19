@@ -1,0 +1,30 @@
+package c15;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class FilterStream {
+	public static void main(String[] args) {
+		//필터링-중간 연산
+		//스트림을 구성하는 데이터 중 일부를 조건에 따라
+		//걸러내는 연산
+		//return 값이 true인 요소만 모아서 다시 스트림으로 리턴
+		//Stream<T> filter()
+		//매개변수는 인터페이스에 추상메소드 한개
+		List<Integer> ar=Arrays.asList(1,2,3,4,5);
+		//홀수만 뽑아서 콘솔에 출력
+		ar.stream()
+			//.filter(n->{return n%2==1;})
+			.filter(n->n%2==1)
+			//1,3,5
+			.forEach(n->System.out.println(n));
+		List<String> sl=
+			Arrays.asList("Toy","Robot","Box");
+		//단어의 길이가 3인 문자열만 콘솔에 출력
+		sl.stream()
+			.filter(s->s.length()==3)
+			.forEach(s->System.out.println(s));
+		
+	}
+
+}

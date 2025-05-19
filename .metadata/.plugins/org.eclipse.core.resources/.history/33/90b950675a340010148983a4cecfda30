@@ -1,0 +1,10 @@
+package c15;
+
+public class ListStream {
+	public static void main(String[] args) {
+		//스프림 생성하기: 컬렉션 인스턴스
+		//메소드
+		//Stream<E> stream()
+	}
+
+}

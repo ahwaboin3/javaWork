@@ -1,0 +1,21 @@
+package c15.toy;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ToyStream {
+	public static void main(String[] args) {
+		List<ToyPriceInfo> ls=new ArrayList<>();
+		ls.add(new ToyPriceInfo("장난감1", 200));
+		ls.add(new ToyPriceInfo("장난감2",350));
+		ls.add(new ToyPriceInfo("장난감3",550));
+		
+		//500원 이하의 장난감 목록만 보이시오.
+	}
+
+}
+
+
+
+
+

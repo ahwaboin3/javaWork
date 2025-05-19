@@ -1,0 +1,7 @@
+package c13;
+
+//열거형
+//인터페이스 기반 상수의 정의: 자바5 이전의 방식
+public interface Scale {
+	int DO=0;
+}

@@ -1,0 +1,26 @@
+package c14;
+
+//람다(lambda)
+public class OneParamNoReturn {
+	public static void main(String[] args) {
+		//구현 클래스
+		Printable printable1=new PrintableImple();
+		//익명 클래스
+		Printable printable2=new Printable() {
+			
+			@Override
+			public void print(String s) {
+				System.out.println(s);
+			}
+		};
+		//람다 사용 - 인터페이스에 추상 메소드가 1개인 경우만
+		//사용 가능하다
+		Printable p;
+		p=(String s)->{System.out.println(s);};
+		p.print("람다");
+	}
+
+}
+
+
+

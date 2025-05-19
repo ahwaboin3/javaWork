@@ -1,0 +1,14 @@
+package c15;
+
+public class OpIntStream {
+	public static void main(String[] args) {
+		//스트림의 최종 연산
+		//sum() - 총합
+		//count() - 총수
+		//average() - 평균
+		//min() - 최소값
+		//max() - 최대값을 
+		//int, long, double 스트림에 정의되어 있음
+	}
+
+}

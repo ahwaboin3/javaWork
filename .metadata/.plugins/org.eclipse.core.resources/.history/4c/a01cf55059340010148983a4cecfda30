@@ -1,0 +1,9 @@
+package c15;
+
+public class StringStream {
+	public static void main(String[] args) {
+		//스트림 생성하기:배열
+		String[] names= {"Yoon","Lee","Park"};
+	}
+
+}

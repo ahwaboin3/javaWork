@@ -1,6 +1,0 @@
-package c07.friend;
-
-public class Friend {
-	private String name;
-
-}

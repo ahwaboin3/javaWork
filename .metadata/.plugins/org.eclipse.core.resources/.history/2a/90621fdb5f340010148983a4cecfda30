@@ -1,0 +1,16 @@
+package c15;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class MapToInt {
+	public static void main(String[] args) {
+		//맵핑 - 리턴문의 결과를 다시 스트림의 리턴
+		//문자열의 문자열 길이로 맵핑
+		List<String> ls=
+				Arrays.asList("Box","Robot","Simple");
+		ls.stream()
+			.map(s->)
+	}
+
+}

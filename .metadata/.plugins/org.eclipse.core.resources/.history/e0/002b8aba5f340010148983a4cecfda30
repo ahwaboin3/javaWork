@@ -1,0 +1,9 @@
+package c15;
+
+public class MapToInt {
+	public static void main(String[] args) {
+		//맵핑
+		//문자열의 문자열 길이로 맵핑
+	}
+
+}

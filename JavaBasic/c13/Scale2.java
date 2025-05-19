@@ -1,0 +1,6 @@
+package c13;
+
+//enum - 자료형의 부여를 돕는 열거형
+public enum Scale2 {
+	DO, RE, MI, FA, SO, RA, TI
+}

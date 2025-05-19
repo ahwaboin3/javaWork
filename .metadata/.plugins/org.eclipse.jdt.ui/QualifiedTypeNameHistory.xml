@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="c06.method.MeRe"/>
-    <fullyQualifiedTypeName name="c06.method.MeOver"/>
-    <fullyQualifiedTypeName name="makeclass.Movie"/>
-    <fullyQualifiedTypeName name="makeclass.Account"/>
-    <fullyQualifiedTypeName name="makeclass.Lotto"/>
-    <fullyQualifiedTypeName name="c06.question.MemberService"/>
-    <fullyQualifiedTypeName name="c06.question.Printer"/>
-    <fullyQualifiedTypeName name="c06.staticmember.StaticMember"/>
-    <fullyQualifiedTypeName name="c06.singletone.Singleton"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
-    <fullyQualifiedTypeName name="c02.BooleanType"/>
-    <fullyQualifiedTypeName name="c06.finalfield.FinalField"/>
-    <fullyQualifiedTypeName name="c06.pakageapproach.PakageDetails"/>
     <fullyQualifiedTypeName name="c06.finalfield.Circle"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="c06.finalfield.CircleGirth"/>
@@ -59,5 +45,19 @@
     <fullyQualifiedTypeName name="java.time.Period"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="c05.MainMethodArr"/>
+    <fullyQualifiedTypeName name="c13.NonSafeConst"/>
+    <fullyQualifiedTypeName name="c13.Person"/>
+    <fullyQualifiedTypeName name="c13.useenum.SafeEnum"/>
+    <fullyQualifiedTypeName name="c13.useenum.Animal"/>
+    <fullyQualifiedTypeName name="c14.PrintableImple"/>
+    <fullyQualifiedTypeName name="c14.Printable"/>
+    <fullyQualifiedTypeName name="c14.Calculate"/>
+    <fullyQualifiedTypeName name="c14.CalculateWithReturn"/>
+    <fullyQualifiedTypeName name="c14.Generator"/>
+    <fullyQualifiedTypeName name="c15.StringStream"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="c15.toy.ToyPriceInfo"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

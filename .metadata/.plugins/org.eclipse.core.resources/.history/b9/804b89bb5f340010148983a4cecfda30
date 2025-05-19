@@ -1,0 +1,13 @@
+package c15;
+
+import java.util.Arrays;
+
+public class MapToInt {
+	public static void main(String[] args) {
+		//맵핑
+		//문자열의 문자열 길이로 맵핑
+		List<String> ls=
+				Arrays.asList("Box","Robot","Simple");
+	}
+
+}

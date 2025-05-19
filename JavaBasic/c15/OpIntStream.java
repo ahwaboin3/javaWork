@@ -1,0 +1,38 @@
+package c15;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class OpIntStream {
+	public static void main(String[] args) {
+		//스트림의 최종 연산
+		//sum() - 총합
+		//count() - 총수
+		//average() - 평균
+		//min() - 최소값
+		//max() - 최대값을 
+		//int, long, double 스트림에 정의되어 있음
+		
+		//forEach
+		//매개변수에 요소를 순차적으로 대입 리턴값은 void
+		
+		//collect ->스트림을 리스트로 변환
+		List<String> list=Arrays.asList(
+				"Hello","Box","Robot","Toy");
+		//길이가 5이하인 단어만 모아서 다시 리스트 생성
+		List<String> ls=list.stream()
+			.filter(s->s.length()<5)
+			.collect(()->new ArrayList<>(),
+						(c,s)->c.add(s),
+						(lst1,lst2)->lst1.addAll(lst2));
+		//(lst1,lst2)->lst1.addAll(lst2) 
+		//순차 스트림에서는 의미 없음
+		//그러나 병렬스트림을 고려하여 문장은 작성해야 함
+		for(String s:ls) {
+			System.out.println(s);
+		}
+		
+	}
+
+}
