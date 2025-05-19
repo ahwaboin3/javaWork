@@ -1,0 +1,8 @@
+package c12.task.gs;
+
+public class ListExample {
+	public static void main(String[] args) {
+		
+	}
+
+}

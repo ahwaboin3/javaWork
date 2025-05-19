@@ -1,0 +1,26 @@
+package c12.task.gs;
+
+import java.util.List;
+
+public class ListExample {
+	public static void main(String[] args) {
+		BoardDao dao=new BoardDao();
+		List<Board> list=dao.getBoardList();
+		dao.printList();
+		//수정
+		System.out.println("수정");
+		dao.putBoard(1, "수정된 제목2", "수정된 내용2");
+		dao.printList();
+		//삭제
+		dao.deleteBoard(1);
+		System.out.println("삭제");
+		dao.printList();
+		//검색
+		System.out.println("검색");
+		Board b=dao.searchBoard("제목11");
+		if(b!=null) {
+		}
+		System.out.println(b);
+	}
+
+}

@@ -1,6 +1,0 @@
-package c08;
-
-//인터페이스는 상수 필드와 추상 메소드만을 구성 멤보로 가집니다.
-public interface RemoteControl {
-
-}

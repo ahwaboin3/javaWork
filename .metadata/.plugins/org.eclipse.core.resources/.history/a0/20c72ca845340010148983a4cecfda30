@@ -1,0 +1,13 @@
+package c12.task;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BoardDao {
+	List<Board> list=new ArrayList<>();
+
+	public List<Board> getBoardList() {
+		return list;
+	}
+
+}

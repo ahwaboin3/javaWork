@@ -1,6 +1,0 @@
-package c07.task;
-
-public class Lantop extends Computer {
-	private String bat;
-	
-}

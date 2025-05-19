@@ -1,0 +1,9 @@
+package c12.task;
+
+public class ListExample {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

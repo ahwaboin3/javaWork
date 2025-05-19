@@ -1,0 +1,59 @@
+package c12.task.gs;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BoardDao {
+	List<Board> list=new ArrayList<>();
+
+	public BoardDao() {
+		list.add(getBoard("제목1","내용1"));
+		list.add(getBoard("제목2","내용2"));
+		list.add(getBoard("제목3","내용3"));
+	}
+	
+	//Board 객체 생성
+	public Board getBoard(String title,String content) {
+		Board board=new Board();
+		board.setTitle(title);
+		board.setContent(content);
+		return board;
+	}
+
+	public List<Board> getBoardList() {
+		return list;
+	}
+	
+	public void printList() {
+		for(Board board:list) {
+			System.out.println(board);
+		}
+	}
+	
+	//객체를 수정
+	public void putBoard(
+			int index,String title,String content) {
+		Board editedBoard=new Board();
+		editedBoard.setTitle(title);
+		editedBoard.setContent(content);
+		list.set(index,editedBoard);
+	}
+	
+	//삭제
+	public void deleteBoard(int index) {
+		list.remove(index);
+	}
+	
+	//제목으로 검색
+	public void serchBoard(String title) {
+		Board board=new Board();
+		board.setTitle(title);
+		boolean b=list.contains(board);
+	}
+
+}
+
+
+
+
+

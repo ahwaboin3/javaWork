@@ -1,9 +1,0 @@
-package c07.task.gs;
-
-public class Lantop extends Computer {
-
-	public static void main(String[] args) {
-
-	}
-
-}

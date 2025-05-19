@@ -1,0 +1,11 @@
+package c12.task;
+
+import java.util.List;
+
+public class BoardDao {
+
+	public List<Board> getBoardList() {
+		return null;
+	}
+
+}
